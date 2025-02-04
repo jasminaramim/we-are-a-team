@@ -1,6 +1,6 @@
 
 # Project Name : One Page Portfolio
-![Project Screenshot](./src/assets/Screenshot%202025-02-05%20022056.png)
+![Project Screenshot](./src/assets/teamimg.png)
 ## Description
 
 
@@ -12,9 +12,6 @@
 - React  
 - Vite  
 - Tailwind CSS  
-- Node.js (if applicable)  
-- Firebase (if applicable)  
-- Other technologies you used
 
 ---
 
