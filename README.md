@@ -1,6 +1,6 @@
 
 # Project Name : One Page Portfolio
-![Project Screenshot](./src/assets/image.png)
+![Project Screenshot](./src/assets/Screenshot%202025-02-05%20022056.png)
 ## Description
 
 
