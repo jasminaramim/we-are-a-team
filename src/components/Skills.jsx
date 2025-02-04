@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <>
       <div className="container skills" id="skills">
-        <h1>SKILLS</h1>
+        <h1 className="font-bold text-2xl text-center mb-10 mt-9">SKILLS</h1>
         <div className="items">
           {skills.map((data) => (
             <>

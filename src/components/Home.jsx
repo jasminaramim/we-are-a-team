@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import pdf from "../pdf/resume.pdf";
-import hero from "./data/hero.json";
+
 import Typed from "typed.js";
 
 const Home = () => {
@@ -8,10 +7,10 @@ const Home = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "Welcome to my profile",
-        "My Name is John Doe",
-        "I'm full stack developer",
-        "Androide Developer (React Native)",
+        "Welcome to Our profile",
+        "Let's Meet Our Team Members",
+        " Front End developer's",
+
       ],
       typeSpeed: 50,
       backSpeed: 50,
@@ -27,21 +26,17 @@ const Home = () => {
 
   return (
     <>
-      <div className="container home" id="home">
-        <div className="left" data-aos="fade-up-right" data-aos-duration="1000">
-          <h1 ref={typedRef}></h1>
+      <div className=" mx-auto ">
+        <div className="container home  lg:grid  lg:grid-cols-2 grid grid-cols-1 m-10" id="home">
+          <div className="left font-bold lg:w-3/4 w-100 my-5 " data-aos="fade-up-right" data-aos-duration="1000">
+            <h1 ref={typedRef}></h1>
 
-          <a
-            href={pdf}
-            download="Resume.pdf"
-            className="btn btn-outline-warning my-3"
-          >
-            Download Resume
-          </a>
-        </div>
-        <div className="right">
-          <div className="img" data-aos="fade-up-left" data-aos-duration="1000">
-            <img src={`/assets/${hero.imgSrc}`} alt="hero" />
+
+          </div>
+          <div className="right">
+            <div className="img" data-aos="fade-up-left" data-aos-duration="1000">
+              <img src="./assets/Team/teamJ.png" alt="team" />
+            </div>
           </div>
         </div>
       </div>

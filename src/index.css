@@ -34,14 +34,20 @@ a {
 
 
 /* Home Section */
-
+.btn{
+  background: yellow;
+  border: 1px solid yellow;
+}
 .home {
   height: 80vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+.leader{
+  color: yellow;
+  
+}
 .home .left {
   background-color: var(--bg-color);
   width: 620px;
@@ -51,11 +57,16 @@ a {
   border: 1px solid yellow;
   box-shadow: var(--box-shadow);
 }
+.experience{
+  align-items: center;
+  text-align: center;
+}
 
 .home .right .img {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   /* background-color: yellow; */
   /* height: 350px;
   width: 350px; */
@@ -79,8 +90,8 @@ a {
   }
 
   25% {
-    border-color: rgb(239, 244, 11);
-    box-shadow: 10px 10px 100px 50px rgb(239, 244, 11);
+    border-color: rgb(139, 11, 244);
+    box-shadow: 10px 10px 100px 50px rgb(11, 89, 244);
   }
 
   50% {
@@ -91,7 +102,7 @@ a {
 
   75% {
     border-color: rgb(130, 217, 160);
-    box-shadow: 10px 10px 100px 50px rgb(130, 217, 160);
+    box-shadow: 10px 10px 100px 50px rgb(179, 217, 130);
   }
 
   100% {
@@ -108,13 +119,14 @@ a {
 }
 
 .ex-items {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
   align-items: center;
+  text-align: center;
   background-color: var(--bg-color);
   margin: 20px;
   padding: 30px;
-  width: 800px;
+  /* width: 800px; */
   border-radius: 10px;
   border: 1px solid yellow;
   box-shadow: var(--box-shadow);
@@ -180,3 +192,7 @@ a {
 .contact-icon .items .icons {
   font-size: 2rem;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,31 @@
+
+
+[
+  
+    {
+      "key": 2,
+      "title": "RIPUNUR RAHMAN RIYAD",
+      "imageSrc": "/assets/Team/Riyad.jpg",
+      "description": "Expart in HTML OR CSS",
+     
+      "source": "https://www.facebook.com/ripunur.rahman?mibextid=ZbWKwL"
+    },
+    {
+        "key": 1,
+        "position": "TEAM leader",
+        "title": "JASMIN ARA MIM ",
+        "imageSrc": "/assets/Team/jasmin5.png",
+        "description": "Expart in HTML , CSS , JS ,REACT.JS",
+       
+        "source": "https://www.facebook.com/profile.php?id=100086272034363&mibextid=ZbWKwL"
+      },
+    {
+      "key": 3,
+      "title": "RIYA RANI DASH",
+      "imageSrc": "/assets/Team/RiyaRani.jpg",
+      "description": "expart in HTML ",
+      
+      "source": "https://www.facebook.com/profile.php?id=100043961301670&mibextid=ZbWKwL"
+    }
+  ]
+  

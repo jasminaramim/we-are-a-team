@@ -1,13 +1,13 @@
-import React from "react";
-import project from "./data/projects.json";
+
+import TEam from "./data/TEam.json";
 
 const Projects = () => {
   return (
     <>
       <div className="container projects my-3" id="projects">
-        <h1 className="text-2xl font-bold text-center mt-10">PROJECTS</h1>
+        <h1 className="text-2xl font-bold text-center mb-5 ">TEAM MEMBERS</h1>
         <div className="row d-flex justify-content-center align-content-center">
-          {project.map((data) => (
+          {TEam.map((data) => (
             <>
               <div
                 key={data.id}
@@ -30,20 +30,19 @@ const Projects = () => {
                       alt="..."
                       style={{
                         width: "250px",
-                        height: "200px",
+                        height: "230px",
                         border: "2px solid yellow",
                         borderRadius: "10px",
                       }}
                     />
                   </div>
                   <div className="card-body text-center">
-                    <h5 className="card-title">{data.title}</h5>
+                    <h4 className="leader font-bold mb-2">{data.position}</h4>
+                    <h5 className="card-title font-bold">{data.title}</h5>
                     <p className="card-text">{data.description}</p>
-                    <a href={data.demo} className="btn  mx-3">
-                      Demo
-                    </a>
-                    <a href={data.source} className="btn btn-warning">
-                      Code
+                  
+                    <a href={data.source} className="btn mt-2">
+                      HIRE
                     </a>
                   </div>
                 </div>

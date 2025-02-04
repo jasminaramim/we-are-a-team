@@ -1,41 +1,44 @@
 [
   {
     "id": 1,
-    "role": "Senior Software Development Engineer SDE - II",
+    "role": "JUNIOR DEVELOPER",
+    "name":"Jasmin Ara mim",
     "organisation": "Google",
-    "startDate": "Sept, 2023",
+    "startDate": "JULY, 2024",
     "endDate": "Present",
-    "location": "CA,United State",
+    "location": "Bangaldesh",
     "experiences": [
-      "Worked on Google Gmail",
-      "Worked with the Google Bard Team"
+      "Study On Mymensingh Polytechnic Institute",
+      "Web development At Programming Hero"
     ],
-    "imageSrc": "company/google.png"
+    "imageSrc": ""
   },
   {
     "id": 2,
-    "role": "Software Development Engineer SDE - I",
+    "role": "JUNIOR DEVELOPER",
+    "name":"Ripunur Rahman ",
     "organisation": "Mirosoft",
-    "startDate": "Aug, 2022",
-    "endDate": "Aug, 2023",
-    "location": "London, UK",
+    "startDate": "Aug, 2024",
+    "endDate": "Present",
+    "location": "Bd,mymensingh",
     "experiences": [
-      "Worked on Windows 10 terminal",
-      "Worked on Window 11 Upcoming features"
+      "Study On Mymensingh Polytechnic Institute",
+      "Helped to create website"
     ],
-    "imageSrc": "company/microsoft.png"
+    "imageSrc": ""
   },
   {
     "id": 3,
-    "role": "Software Development Engineer - Intern",
+    "role": "JUNIOR DEVELOPER",
+    "name":"Riya Rani Dash",
     "organisation": "Netflix",
-    "startDate": "Apr, 2021",
-    "endDate": "Jun, 2022",
-    "location": "Bengluru, India",
+    "startDate": "Oct, 2024",
+    "endDate": "Present",
+    "location": "Muktagacha,Bd",
     "experiences": [
-      "Worked on Nextflix payment system",
-      "Helped to create UI for video player"
+      "Study On Mymensingh Polytechnic Institute",
+      "Helped to create website"
     ],
-    "imageSrc": "company/netflix.png"
+    "imageSrc": ""
   }
 ]
