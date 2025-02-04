@@ -12,9 +12,6 @@
 - React  
 - Vite  
 - Tailwind CSS  
-- Node.js (if applicable)  
-- Firebase (if applicable)  
-- Other technologies you used
 
 ---
 
